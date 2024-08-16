@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const initialCartState = {\n  items: [],\n  totalAmount: 0\n};","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

@@ -1,0 +1,6 @@
+<div class="cart-icon">
+    <i class="fa fa-shopping-cart"></i> <!-- Font Awesome shopping cart icon -->
+    <span class="cart-quantity" *ngIf="(totalQuantity$ | async) ?? 0 > 0">
+      {{ totalQuantity$ | async }}
+    </span>
+  </div>
